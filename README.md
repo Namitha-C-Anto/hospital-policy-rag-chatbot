@@ -50,11 +50,11 @@ User Question → Retriever → Context → LLM → Answer
 
 ## 📸 Demo
 
-### Chatbot Interface
-![Chatbot UI](assets/chatbot-ui.png)
-
 ### Example Response
-![Sample Output](assets/sample-query.png)
+![Chatbot UI](assets/demo.png)
+
+### Example Response for outside data
+![Sample Output](assets/demo_1.png)
 
 ---
 
