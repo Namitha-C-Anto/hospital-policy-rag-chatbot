@@ -12,7 +12,7 @@ from langchain_core.runnables import RunnablePassthrough
 load_dotenv(override=True)
 
 llm = ChatGroq(model="llama-3.1-8b-instant", api_key= os.getenv("GROQ_API_KEY"), max_tokens=1000)
-loader = PyPDFLoader("Hospital_Policy_Single_Document.pdf")
+loader = PyPDFLoader("Data/Hospital_Policy_Single_Document.pdf")
 docs = loader.load()
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
 splitted_docs = text_splitter.split_documents(docs)
