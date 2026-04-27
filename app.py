@@ -36,7 +36,7 @@ chain = (
     | prompt | llm | StrOutputParser()
 )
 
-st.title("Hospital Policy RAG Chatbot")
+st.title("🏥 Hospital Policy RAG Chatbot")
 question = st.text_input("Enter your question", key="input")
 if question:
     response = chain.invoke(question)
