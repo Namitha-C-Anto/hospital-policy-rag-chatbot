@@ -1,3 +1,7 @@
+## 🌐 Live Demo
+
+👉 https://huggingface.co/spaces/NamithaC/hospital-policy-rag-chatbot
+
 # 🏥 Hospital Policy RAG Chatbot
 
 An intelligent **Retrieval-Augmented Generation (RAG)** chatbot that answers hospital policy-related questions using Large Language Models (LLMs) and semantic search.
